@@ -16,8 +16,8 @@ class String
 
   def count_sentences
     #binding.pry
-  self.split(/\.|!|\?/).reject {|e| e.empty?}
+    new_array = self.split(/[.?!]/)
+  #self.split(/\.|!|\?/).reject {|e| e.empty?}
 
-  end
   end
 end 

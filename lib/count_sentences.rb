@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-
+count_sentences_str.split(/\s*-\s*/)
   end
 end

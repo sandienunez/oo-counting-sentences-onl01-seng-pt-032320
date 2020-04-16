@@ -14,11 +14,11 @@ class String
      self.end_with?('!')
   end
 
-  def count_sentences
-    #binding.pry
+   def count_sentences
     new_array = self.split(/[.?!]/)
     new_array.reject! do |thing|
       thing.empty?
-  #self.split(/\.|!|\?/).reject {|e| e.empty?}
+    end
+    new_array.length
   end
-end 
+  #self.split(/\.|!|\?/).reject {|e| e.empty?}

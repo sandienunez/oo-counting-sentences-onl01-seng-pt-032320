@@ -17,7 +17,8 @@ class String
   def count_sentences
     #binding.pry
     new_array = self.split(/[.?!]/)
+    new_array.reject! do |thing|
+      thing.empty?
   #self.split(/\.|!|\?/).reject {|e| e.empty?}
-
   end
 end 

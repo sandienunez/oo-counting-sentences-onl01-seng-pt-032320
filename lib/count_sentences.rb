@@ -21,4 +21,5 @@ class String
     end
     new_array.length
   end
+end 
   #self.split(/\.|!|\?/).reject {|e| e.empty?}

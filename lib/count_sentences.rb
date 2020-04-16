@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-count_sentences_str.split(/\s*-\s*/)
+count_sentences_str.split(/\s*-\s*/)("This is a string! It has three sentences. Right?")
   end
 end

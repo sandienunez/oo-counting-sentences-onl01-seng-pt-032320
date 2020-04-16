@@ -19,5 +19,5 @@ class String
   self.split(/\.|!|\?/).reject {|e| e.empty?}
 
   end
-end
+  end
 end 
